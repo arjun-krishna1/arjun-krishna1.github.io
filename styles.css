@@ -1,23 +1,26 @@
 body {
-    background-color: #7EF9FF;
+    background-color: #CDCFD0;
 }
 
 .robot-animation {
-    width: 30%;
+    width: auto;
 }
 
 .main {
     height: 100%;
-    padding: 20% 10%;
+    padding: 13% 10%;
     font-family: 'Share Tech', sans-serif;
 }
 
 #title {
     font-size: 500%;
     padding: 0;
-    color: #807eff;
+    color: #696A6A;
 }
 
+#robot-container {
+    width: 100%;
+}
 #sub-title {
 }
 .main-text {
