@@ -66,3 +66,8 @@ body {
   background: rgba(255, 165, 0, 0);
   color: #fff;
 }
+
+img {
+  width: auto;
+  height: 100%;
+}
