@@ -1,16 +1,15 @@
 body {
   background-color: #cdcfd0;
-  height: auto;
+  font-family: "Share Tech", sans-serif;
 }
 
 .robot-animation {
   width: 100%;
 }
 
-.main {
+#title-container {
   height: 100%;
-  padding: 13% 10%;
-  font-family: "Share Tech", sans-serif;
+  padding: 13% 5%;
 }
 
 #title {
@@ -25,23 +24,45 @@ body {
 #sub-title {
 }
 .main-text {
-  line-height: 10%;
+  line-height: 5%;
 }
 
 .robot-caption {
   font-size: 150%;
 }
 
-.link-spanner {
-  position: absolute;
-  width: 100%;
-  height: 100%;
-  top: 0;
-  left: 0;
-
-  z-index: 1;
-}
-
 .robot-container {
   position: relative;
+}
+
+#experience-container{
+  padding-left: 5%;
+  /* padding: 13% 5%; */
+}
+
+.experience-card{
+  height: 120%;
+}
+
+.experience-card .card-img-overlay {
+  visibility: hidden;
+}
+
+.experience-card:hover .card-img-overlay {
+  visibility: visible;
+}
+
+.card-img-top {
+  vertical-align: middle;
+}
+
+.experience-card:hover .card-img-top {
+  transition: filter 0.5s;
+  filter: blur(5px);
+  filter: brightness(0.2);
+}
+
+.list-group-item-dark {
+  background: rgba(255, 165, 0, 0);
+  color: #fff;
 }
